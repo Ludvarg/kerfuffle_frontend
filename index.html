@@ -11,11 +11,11 @@
         <div class="flex justify-center self-center bg-secondary-0 m-4 px-6 border-8 border-dark rounded-lg h-20 max-w-xl">
             <h1 class="text-6xl text-dark">KERFUFFLE</h1>
         </div>
-        <div class="flex flex-col items-center">
-            <input class="px-6 mb-4 border-4 border-dark bg-light h-12 w-96 rounded-md" type="text" placeholder="ROOM CODE..">
-            <input class="px-6 mb-4 border-4 border-dark bg-light h-12 w-96 rounded-md" type="text" placeholder="ENTER NAME..">
-            <input class="px-6 border-4 border-dark bg-secondary-0 h-12 w-40 rounded-full hover:bg-secondary-1 active:bg-secondary-2" type="button" value="SUBMIT">
-        </div>
+        <form class="flex flex-col items-center" action="/room/">
+            <input class="px-6 mb-4 border-4 border-dark bg-light h-12 w-96 rounded-md" type="text" id="code" placeholder="ROOM CODE..">
+            <input class="px-6 mb-4 border-4 border-dark bg-light h-12 w-96 rounded-md" type="text" id="name" placeholder="ENTER NAME..">
+            <input class="px-6 border-4 border-dark bg-secondary-0 h-12 w-40 rounded-full hover:bg-secondary-1 active:bg-secondary-2" type="submit" value="JOIN">
+        </form>
     </main>
 </body>
 </html>
